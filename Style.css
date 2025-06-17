@@ -1,0 +1,96 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #0a0a1a; /* deep dark blue/black */
+  color: #c0c0ff; /* soft neon purple */
+  font-family: 'Press Start 2P', cursive, monospace;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ff00cc;
+  text-shadow:
+    0 0 5px #ff00cc,
+    0 0 10px #ff00cc,
+    0 0 20px #ff3399,
+    0 0 30px #ff3399,
+    0 0 40px #ff3399;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin: 20px 0 40px 0;
+}
+
+nav a {
+  color: #66ffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 16px;
+  border: 2px solid #66ffff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 0 10px #66ffff;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #66ffff;
+  color: #0a0a1a;
+  box-shadow:
+    0 0 15px #00ffff,
+    0 0 25px #00ffff,
+    0 0 35px #00ffff;
+  transform: scale(1.1);
+}
+
+p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  text-shadow: 0 0 10px #cc00ff;
+}
+
+ul {
+  list-style-type: square;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding-left: 20px;
+  text-align: left;
+}
+
+ul li a {
+  color: #ff66cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: #ff33aa;
+  text-decoration: underline;
+}
+
+/* Link back styles */
+a.back-link {
+  font-weight: bold;
+  color: #ff66cc;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a.back-link:hover {
+  text-decoration: underline;
+  color: #ff33aa;
+  cursor: pointer;
+}
